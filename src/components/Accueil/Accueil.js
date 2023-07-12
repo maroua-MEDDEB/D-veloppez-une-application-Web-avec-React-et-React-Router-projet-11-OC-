@@ -1,6 +1,13 @@
+import './Accueil.css';
+// import Header from '../Header/Header';
+
 function Accueil() {
     return(
-        <h1>bien venue</h1>
+        <>
+         {/* <Header /> */}
+        </>
+       
+        
     );
 }
 

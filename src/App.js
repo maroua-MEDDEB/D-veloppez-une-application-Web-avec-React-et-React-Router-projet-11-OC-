@@ -7,14 +7,15 @@ import Apropos from './components/Apropos/Apropos';
 
 function App() {
   return (
-    <div className="App">
-     <Routes>
-      <Route path='/' element={<Home />}></Route>
-      <Route path='/logement' element={<Logement />}></Route>
-      <Route path='/erreur' element={<Erreur />}></Route>
-      <Route path='/a_propos' element={<Apropos />}></Route>
-     </Routes>
-    </div>
+    <>
+    <h1>Hello word</h1>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/logement' element={<Logement />} />
+      <Route path='/erreur' element={<Erreur />} />
+      <Route path='/a_propos' element={<Apropos />} />
+    </Routes>
+    </>
   );
 }
 
