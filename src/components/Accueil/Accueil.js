@@ -1,16 +1,11 @@
-import {Header, Footer, Accueil_Container} from '../index';
+import {Accueil_Container} from '../index';
 
 function Accueil() {
     return(
         <>
-         <Header />
-         <Accueil_Container>
-            
-         </Accueil_Container>
-         {/* <Footer /> */}
+         <Accueil_Container> </Accueil_Container>
         </>
-       
-        
+  
     );
 }
 
