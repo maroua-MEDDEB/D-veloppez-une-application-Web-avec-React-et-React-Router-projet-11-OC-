@@ -1,6 +1,5 @@
-import Header from '../Header/Header';
+import {Header, Footer} from '../index';
 import Accueil_Container from '../Accueil/Accueil_Container';
-import Footer from '../Footer/Footer';
 
 function Accueil() {
     return(
