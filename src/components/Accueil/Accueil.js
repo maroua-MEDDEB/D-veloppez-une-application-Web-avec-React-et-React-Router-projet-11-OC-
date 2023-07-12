@@ -1,10 +1,13 @@
-import './Accueil.css';
-// import Header from '../Header/Header';
+import Header from '../Header/Header';
+import Accueil_Container from '../Accueil/Accueil_Container';
+import Footer from '../Footer/Footer';
 
 function Accueil() {
     return(
         <>
-         {/* <Header /> */}
+         <Header />
+         <Accueil_Container />
+         <Footer />
         </>
        
         

@@ -1,6 +1,9 @@
-/* body{
-    height: 100px;
-    width: 100%;
-    border: 2px solid;
-} */
+body{
+    box-sizing:border-box;
+    /* height: 100px;
+    width: 100%; */
+    /* padding: 40px 100px; */
+    
+    border: 2px solid black;
+} 
 

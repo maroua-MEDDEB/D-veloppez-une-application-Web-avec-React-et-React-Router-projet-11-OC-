@@ -1,23 +1,18 @@
-// import './Header.css';
+import './Header.css';
 
-// function Header() {
-//     return (
-//         <>
-//         <div>
-//         {/* <h1> Header </h1> */}
-        
-//         <ul>
-//             <li>
-//                 <a>Accueil</a>
-//             </li>
-//             <li>
-//                 <a>A propos</a>
-//             </li>
-//         </ul>
-//         </div>
-//         </>
-//     )
+function Header() {
+    return (
+        <>
+        <h3>Hello word</h3>
+        <ul>
+            <li>
+                
+            </li>
+        </ul>
+        </>
+
+    )
    
-// }
+}
 
-// export default Header;
+export default Header;
