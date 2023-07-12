@@ -7,7 +7,7 @@ function Accueil() {
          <Accueil_Container>
             
          </Accueil_Container>
-         <Footer />
+         {/* <Footer /> */}
         </>
        
         

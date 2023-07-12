@@ -1,0 +1,26 @@
+.footer{
+    background: black;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+.img_logo_footer{
+    width: 122px;
+    height: 39.444419860839844px;
+    margin-top: 50px;
+}
+
+.img_logo_footer img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer h2{
+    color: white;
+}
