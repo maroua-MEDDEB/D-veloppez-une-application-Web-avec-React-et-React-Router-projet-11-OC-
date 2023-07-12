@@ -1,8 +1,7 @@
-import './Accueil.css';
-
 function Accueil_Container() {
   return (
     <>
+     
     </>
   )
 }
