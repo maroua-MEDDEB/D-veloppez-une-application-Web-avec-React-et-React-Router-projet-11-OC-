@@ -4,13 +4,14 @@ import Accueil from './components/Accueil/Accueil';
 import Logement from './components/Logement/Logement';
 import Erreur from './components/Erreur/Erreur';
 import Apropos from './components/Apropos/Apropos';
-import { Header, Footer } from './components/index';
+import { Header,Footer } from './Sections/index';
+
 
 function App() {
   return (
     <>
     <Header />
-    <Footer />
+    {/* <Footer /> */}
 
     <Routes>
       <Route path='/' element={<Accueil />} />
