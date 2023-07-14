@@ -1,14 +1,23 @@
-.section_main{
-    background: url('../../assets/images/image_accueil.png') 100% ;  
+.section_main {
+    position: relative;
+    background: url('../../assets/images/image_accueil.png') no-repeat center; 
+    background-size: cover; 
     border-radius: var(--radius-measure);
     height: 13.5rem;
-    margin: var(--margin-primary);    
+    overflow: hidden;
+    margin: var(--margin-primary);
+}
+
+.image_darkness {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0, 0.5);
+    font-size: 52px;
+    color: var(--color--light);
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.main_text{
-    font-size: 52px;
-    color: var(--color--light);
 }
