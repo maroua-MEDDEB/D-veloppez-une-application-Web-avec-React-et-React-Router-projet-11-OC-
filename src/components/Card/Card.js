@@ -1,19 +1,18 @@
-import {appartList} from '../../datas/data';
+import './Card.css';
 
-function Card() {
+function Card(props) {
   return (
     <>
-    <div className='card_img'>
-        <img src= {appartList.map((appart) => (
-            <li key={appart.id}>{appart.cover}</li>
-            ))} 
-        alt='' />    
+    <div className='galorie_item'>
+      <div className='card_img'>
+        <img src={props.cover} alt=''/>
+      </div>
+      <div className='card_text'>
+        {props.title}
+      </div>
     </div>
-    <ul>
-        {appartList.map((appart) => (
-            <li key={appart.id}>{appart.title}</li>
-        ))}
-    </ul>   
+ 
+ 
     </>
   )
 }

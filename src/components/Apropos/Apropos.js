@@ -1,6 +1,13 @@
+import { Header } from "../../Sections";
+import { Banner_apropos } from "../../Sections/Banner/Banner";
 function Apropos() {
     return(
-        <h1>A propos</h1>
+        <>
+        <Header />
+        <div>
+        <Banner_apropos> </Banner_apropos>
+        </div>
+        </>
     );
 }
 

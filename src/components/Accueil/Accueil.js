@@ -1,9 +1,12 @@
+import { Footer, Header } from '../../Sections';
 import {Accueil_Container} from '../index';
 
-function Accueil() {
+function Accueil(props) {
     return(
         <>
-         <Accueil_Container background='{--color--light}'/>
+        <Header />
+        <Accueil_Container background='{--color--light}'/>
+        <Footer />
         </>
   
     );

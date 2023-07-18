@@ -10,14 +10,14 @@ import { Header,Footer } from './Sections/index';
 function App() {
   return (
     <>
-    <Header />
-    {/* <Footer /> */}
+  {/* <Header />
+    <Footer /> */}
 
     <Routes>
       <Route path='/' element={<Accueil />} />
       <Route path='/logement' element={<Logement />} />
       <Route path='/erreur' element={<Erreur />} />
-      <Route path='/a_propos' element={<Apropos />} />
+      <Route path='/Apropos' element={<Apropos />} />
     </Routes>
     </>
   );

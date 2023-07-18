@@ -1,0 +1,10 @@
+.galorie_items {
+    background:var(--color--grey);
+    margin: var(--margin-primary);
+    border-radius: var(--radius-measure);
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

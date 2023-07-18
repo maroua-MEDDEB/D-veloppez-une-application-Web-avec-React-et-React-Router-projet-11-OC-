@@ -1,11 +1,14 @@
-.section_main {
+.section_main, .section_main_apropos {
     position: relative;
-    background: url('../../assets/images/image_accueil.png') no-repeat center; 
     background-size: cover; 
     border-radius: var(--radius-measure);
     height: 13.5rem;
     overflow: hidden;
     margin: var(--margin-primary);
+}
+
+.section_main{
+    background: url('../../assets/images/image_accueil.png') no-repeat center; 
 }
 
 .image_darkness {
@@ -20,4 +23,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section_main_apropos{
+    background: url('../../assets/images/image_apropo.png') no-repeat center;
 }
