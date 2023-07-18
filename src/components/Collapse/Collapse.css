@@ -1,0 +1,26 @@
+.dropDownLarge {
+    display: block;
+    margin: auto;
+    width: 87rem;
+}
+
+button {
+    background-color: var(--color--primary);
+    width: 100%;
+    height: 3.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+span{
+    color: var(--color--light);
+}
+
+.collapse_primary{
+    display: flex;
+}
