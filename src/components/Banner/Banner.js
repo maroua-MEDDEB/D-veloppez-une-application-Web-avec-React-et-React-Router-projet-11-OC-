@@ -1,22 +1,23 @@
 import './Banner.css';
+
 //function pour construire l'élément section_main de la page d'acueil
-const Banner = () => {
+const Banner = (props) => {
   return (
+    <>
     <div className="section_main">
       <div className="image_darkness">
-        Chez vous, partout et ailleurs
+        {props.children}
       </div>
     </div>
+    </>
   )
 }
 
-const Banner_apropos = () => {
+const Banner_apropos = (props) => {
   return (
     <>
     <div className="section_main_apropos">
-      <div className="image_darkness">
-        
-      </div>
+      <div className="image_darkness"> {props.children} </div>
     </div>
     </>
   )

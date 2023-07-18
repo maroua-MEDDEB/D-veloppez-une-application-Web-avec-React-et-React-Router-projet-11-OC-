@@ -1,4 +1,4 @@
-import { Banner } from "../../Sections/index";
+import { Banner } from "../../components/index";
 import {Container_Galory} from "../../Sections/index";
 
 function Accueil_Container() {

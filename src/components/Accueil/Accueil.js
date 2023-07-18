@@ -1,7 +1,7 @@
-import { Footer, Header } from '../../Sections';
+import { Footer, Header } from '../../Sections/index';
 import {Accueil_Container} from '../index';
 
-function Accueil(props) {
+function Accueil() {
     return(
         <>
         <Header />
