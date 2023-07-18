@@ -1,5 +1,5 @@
 import '../Container_Galory/Container_Galory.css';
-import {appartListData} from '../../datas/data';
+import {appartListData} from '../../datas/cardsData';
 import {Card} from '../../components/index';
 
 const Container_Galory = () => {
@@ -11,7 +11,7 @@ const Container_Galory = () => {
 
   return (
     <div className='galorie_items'>
-        {cards};
+        {cards};  {/* afficher les données */}
     </div>
   )
 }

@@ -616,4 +616,4 @@ export const appartListData = [
 			"Rivoli"
 		]
 	}
-]
+];

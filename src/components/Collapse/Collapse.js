@@ -7,10 +7,13 @@ const Collapse = (props) =>  {
   return (
     <> 
     <div className="collapse_primary">
-        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">
-            <div> {props.children} </div>
+        <button type="button" className="btn btn-info" data-toggle="collapse" data-target="#demo">
+            <span> {props.title} </span>
             <RiArrowDownSLine style={{'color':'var(--color--light)'}}/>
         </button>
+        <div className="collapse_text">
+          {props.text}
+        </div> 
     </div>
     </>
    
