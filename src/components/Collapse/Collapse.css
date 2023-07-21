@@ -20,7 +20,7 @@ span{
     color: var(--color--light);
 }
 
-.collapse_primary{
+.collapse_default{
     display: flex;
     margin-bottom: 2.5rem;
     flex-direction: column;
@@ -32,5 +32,4 @@ span{
     padding: 5px;
     color: var(--color--primary);
     padding: 15px 10px ;
-    display: none;
 }

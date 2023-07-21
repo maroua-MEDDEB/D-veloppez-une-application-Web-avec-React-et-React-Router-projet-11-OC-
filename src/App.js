@@ -6,7 +6,7 @@ import Erreur from './components/Erreur/Erreur';
 import Apropos from './components/Apropos/Apropos';
 import { Header,Footer } from './Sections/index';
 
-function App() {
+const App = () =>{
   return (
     <>
     <Routes>
