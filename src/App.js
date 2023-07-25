@@ -4,16 +4,16 @@ import Accueil from './components/Accueil/Accueil';
 import Logement from './components/Logement/Logement';
 import Erreur from './components/Erreur/Erreur';
 import Apropos from './components/Apropos/Apropos';
-import { Header,Footer } from './Sections/index';
 
 const App = () =>{
   return (
     <>
+    {/* définir les différens routages */}
     <Routes>
       <Route path='/' element={<Accueil />} />
       <Route path='/logement' element={<Logement />} />
-      <Route path='/erreur' element={<Erreur />} />
-      <Route path='/Apropos' element={<Apropos />} />
+      <Route path='/Apropos' element={<Apropos />}/>
+      <Route path='*' element={<Erreur />} />
     </Routes>
     </>
   );

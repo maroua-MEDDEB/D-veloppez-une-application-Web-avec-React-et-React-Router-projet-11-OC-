@@ -6,6 +6,7 @@ const Banner = (props) => {
     <>
     <div className="section_main">
       <div className="image_darkness">
+        Chez vous, partout et ailleurs
         {props.children}
       </div>
     </div>

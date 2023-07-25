@@ -32,7 +32,6 @@ const Collapse = (props) =>  {
             {props.text}
           </div> 
           </>
-          
         )}
 
        

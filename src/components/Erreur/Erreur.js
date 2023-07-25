@@ -1,6 +1,14 @@
-function Erreur() {
+import './Erreur.css'
+import {Header} from '../../Sections/index';
+import Erreur_Container from '../../Sections/Erreur_Container/Erreur_Container';
+
+const Erreur = () => {
+
     return(
-        <h1>Erreur</h1>
+        <>
+        <Header />
+        <Erreur_Container />
+        </> 
     );
 }
 
