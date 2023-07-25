@@ -1,15 +1,15 @@
-.code_erreur, .text {
+.cod_error, .text {
     color: var(--color--primary);
     margin: auto;
 }
 
-.code_erreur {
+.cod_error {
     font-size:288px;
     font-weight: 700;
     width: 597px;
 }
 
-.text_erreur .text_return_page {
+.text_error .text_return_page {
     font-weight: 500;
 }
 
@@ -22,7 +22,7 @@ align-items: center;
 justify-content: space-around
 
 }
-.text_erreur {
+.text_error {
     font-size: 36px;
 }
 

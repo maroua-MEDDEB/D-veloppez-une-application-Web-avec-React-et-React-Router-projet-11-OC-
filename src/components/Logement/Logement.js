@@ -1,6 +1,12 @@
-function Logement() {
+import {Logement_container} from "../../Sections/index";
+import { Footer, Header } from "../../Sections/index";
+
+const Logement = () => {
     return(
-        <h1>Fichier logement</h1>
+        <>
+        <Header />
+        <Logement_container />
+        </>
     );
 }
 
