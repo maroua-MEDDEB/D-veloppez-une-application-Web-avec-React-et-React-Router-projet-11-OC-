@@ -6,7 +6,7 @@ const Container_Galory = () => {
 
   //retourner un tableau cards qui contient le cover et le title depuis le tableau appartListData en utilisant la méthode map()
   const cards = appartListData.map((card) => { 
-    return <Card key ={card.id} cover={card.cover} title={card.title} />
+    return <Card key ={card.id} id = {card.id} title={card.title} cover={card.cover} pictures={card.pictures} />
   });
 
   return (

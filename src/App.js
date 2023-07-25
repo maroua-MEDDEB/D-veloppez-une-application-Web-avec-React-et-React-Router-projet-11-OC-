@@ -11,7 +11,7 @@ const App = () =>{
     {/* définir les différens routages */}
     <Routes>
       <Route path='/' element={<Accueil />} />
-      <Route path='/logement' element={<Logement />} />
+      <Route path='/logement/:id' element={<Logement />} />
       <Route path='/Apropos' element={<Apropos />}/>
       <Route path='*' element={<Error />} />
     </Routes>
