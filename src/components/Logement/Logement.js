@@ -4,7 +4,6 @@ import { Footer, Header } from "../../Sections/index";
 const Logement = () => {
     return(
         <>
-        <Header />
         <Logement_container />
         </>
     );

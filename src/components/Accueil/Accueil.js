@@ -4,7 +4,6 @@ import {Accueil_Container} from '../index';
 function Accueil() {
     return(
         <>
-        <Header />
         <Accueil_Container background='{--color--light}'/>
         <Footer />
         </>

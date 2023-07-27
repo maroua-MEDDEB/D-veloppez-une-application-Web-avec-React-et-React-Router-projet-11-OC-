@@ -10,12 +10,10 @@ const Apropos = () => {
 
     return(
         <>
-        <Header />
         <div> <Banner_apropos> </Banner_apropos> </div>
         <div className="dropdowns">
             {collapses}
         </div> 
-        <Footer />
         </>
     );
 }

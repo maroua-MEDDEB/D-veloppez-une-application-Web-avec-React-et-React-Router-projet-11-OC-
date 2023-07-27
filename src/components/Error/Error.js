@@ -6,7 +6,6 @@ const Erreur = () => {
 
     return(
         <>
-        <Header />
         <Erreur_Container />
         </> 
     );
