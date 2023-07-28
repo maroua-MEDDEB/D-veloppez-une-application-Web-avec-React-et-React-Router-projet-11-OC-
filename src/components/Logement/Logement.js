@@ -1,3 +1,4 @@
+import './Logement.css';
 import {Logement_container} from "../../Sections/index";
 import { Footer, Header } from "../../Sections/index";
 

@@ -1,0 +1,10 @@
+.oneTag {
+    background: green;
+    border-radius: 10px;
+    height: 25px;
+    width: 115px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

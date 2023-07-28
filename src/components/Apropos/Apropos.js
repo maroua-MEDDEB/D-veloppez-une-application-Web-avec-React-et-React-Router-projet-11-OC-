@@ -1,4 +1,3 @@
-import { Footer, Header } from "../../Sections/index";
 import { Banner_apropos } from "../../components/index";
 import Collapse from "../Collapse/Collapse";
 import { collapsesList } from "../../datas/collapsesData";

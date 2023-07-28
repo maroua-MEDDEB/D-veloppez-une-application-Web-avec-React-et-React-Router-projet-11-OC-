@@ -1,0 +1,37 @@
+.details {
+    color: var(--color--primary);
+    display: flex;
+    margin: var(--margin-primary);
+    background: blue;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.details_localisation {
+display: flex;
+flex-direction: column;
+}
+
+.title {
+    font-size: 36px;
+}
+.location {
+    size: 18px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.profil {
+    display: flex;
+    background: greenyellow;
+    align-items: center;
+}
+.profi_picture img { 
+    height: 64px;
+    border-radius: 100px;;
+}

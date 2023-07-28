@@ -1,26 +1,36 @@
 import './Logement_container.css';
-import {Slideshow} from "../../components/index";
+import {Slideshow, Details} from "../../components/index";
 import {appartListData} from '../../datas/cardsData';
-import { useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 
 
 const Logement_container = () => {
-    //retourner un tableau slides qui contient les données  depuis le tableau appartListData en utilisant la méthode map()
-  const slides = appartListData.map((slide) => { 
-    return <Slideshow key ={slide.id} id = {slide.id} title={slide.title} cover={slide.cover} pictures={slide.pictures} />
-  });
-  console.log(slides);
-  //récupérer l'élément du tableau slides qui porte le même id de la carte sélectionné
+  //récupérer le paramètre id de l'url
+  const {id} = useParams();
 
+  // Rechercher l'élément du tableau appartLIstData en fonction de l'id de l'url
+  const selectedItem = appartListData.find((item) => {
+    return item.id === id;
+  });
+console.log(selectedItem);
+
+  // Récupérer les éléments à afficher dans la page
+  const title = selectedItem.title;
+  const location = selectedItem.location;
+  const tags = selectedItem.tags;
+  // console.log(tags);
+  const hostName= selectedItem.host.name;
+  console.log(hostName);
+  const hostPicture = selectedItem.host.picture;
+  const nmbrRating = selectedItem.rating;
+  
 
   return (
     <>
-    <div>
-    {slides};
-   
-    </div>
-   
+    <Slideshow />
+    <Details title={title} location={location} tags={tags} hostName={hostName}
+    hostPicture={hostPicture} nmbrRating={nmbrRating} />
     </>
 
     )
