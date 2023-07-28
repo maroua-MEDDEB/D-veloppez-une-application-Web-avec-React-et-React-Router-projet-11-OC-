@@ -6,7 +6,7 @@ const Tag = (props) => {
   return (
     <>
     <div className='oneTag'>
-      <span>bonjour</span>
+      <span>{props.tag}</span>
       
     </div>
     </>

@@ -1,5 +1,5 @@
 import './Logement_container.css';
-import {Slideshow, Details} from "../../components/index";
+import { Details, Carousel} from "../../components/index";
 import {appartListData} from '../../datas/cardsData';
 import { useParams } from 'react-router-dom';
 
@@ -16,6 +16,7 @@ const Logement_container = () => {
 console.log(selectedItem);
 
   // Récupérer les éléments à afficher dans la page
+  const pictures = selectedItem.pictures; //récupérer les prictures
   const title = selectedItem.title;
   const location = selectedItem.location;
   const tags = selectedItem.tags;
@@ -27,12 +28,11 @@ console.log(selectedItem);
   
 
   return (
-    <>
-    <Slideshow />
+    <div className='logement_container'>
+    <Carousel pictures={pictures}/>
     <Details title={title} location={location} tags={tags} hostName={hostName}
     hostPicture={hostPicture} nmbrRating={nmbrRating} />
-    </>
-
+    </div>
     )
 }
 

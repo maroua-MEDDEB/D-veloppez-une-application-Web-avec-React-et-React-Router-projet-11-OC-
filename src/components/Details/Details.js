@@ -5,12 +5,9 @@ import { Star_Favorite } from '../../components/index';
 
 const Details = (props) => {
 
-  const tab = props.tags.map((tag, index) => {
-    return <Tag key={index} index = {index}  />
-  });
-
-  // const[color, setColor] = useState(false);
-  // const isColor = () => { setColor(true)}; // fonction qui affiche le une star coloré
+  const tab = props.tags.map((item, index) => (
+    <Tag tag={item} key={`item-${index}`} />
+  ))
 
   return (
     <>
