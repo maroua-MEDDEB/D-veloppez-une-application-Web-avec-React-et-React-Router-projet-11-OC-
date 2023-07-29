@@ -1,5 +1,5 @@
 .oneTag {
-    background: green;
+    background: var(--color--primary);
     border-radius: 10px;
     height: 25px;
     width: 115px;

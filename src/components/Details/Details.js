@@ -1,13 +1,23 @@
 import { useEffect, useState } from 'react';
 import './Details.css';
 import { Tag } from '../../components/index';
-import { Star_Favorite } from '../../components/index';
+import { Rating } from '../../components/index';
 
 const Details = (props) => {
 
+  //tabbleau des tags
   const tab = props.tags.map((item, index) => (
-    <Tag tag={item} key={`item-${index}`} />
+    <Tag tag={item}  key={`item-${index}`} />
   ))
+  console.log(props.tags, props.rating)
+
+  //tableau des rating qui comporte le numero de chaque star_favorite
+ 
+  const ratingNmbers = [1,2,3,4,5];
+  const tabRating = ratingNmbers.map((item, index) => {
+    return <Rating rating={props.rating} key={`item-${index}`} scale={item}/>
+  });
+  console.log(ratingNmbers, tabRating)
 
   return (
     <>
@@ -28,13 +38,11 @@ const Details = (props) => {
           </div>
         </div>
         <div className='host_icon'>
-          <span> {props.nmbrRating}</span>
-          <Star_Favorite></Star_Favorite>
+          {tabRating}
         </div>
       </div>
     </div>
     </>
-    
   )
 }
 

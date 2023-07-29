@@ -6,4 +6,4 @@ export {default as Collapse} from '../components/Collapse/Collapse';
 export {default as Carousel} from './Carousel/Carousel';
 export {default as Details} from '../components/Details/Details';
 export {default as Tag} from '../components/Tag/Tag';
-export {default as Star_Favorite} from '../components/Star_Favorite/Star_Favorite';
+export {default as Rating} from './Rating/Rating';

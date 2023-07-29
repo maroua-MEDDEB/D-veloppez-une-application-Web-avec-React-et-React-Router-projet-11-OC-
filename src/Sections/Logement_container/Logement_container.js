@@ -24,14 +24,14 @@ console.log(selectedItem);
   const hostName= selectedItem.host.name;
   console.log(hostName);
   const hostPicture = selectedItem.host.picture;
-  const nmbrRating = selectedItem.rating;
+  const rating = selectedItem.rating;
   
 
   return (
     <div className='logement_container'>
     <Carousel pictures={pictures}/>
     <Details title={title} location={location} tags={tags} hostName={hostName}
-    hostPicture={hostPicture} nmbrRating={nmbrRating} />
+    hostPicture={hostPicture} rating={rating} />
     </div>
     )
 }
