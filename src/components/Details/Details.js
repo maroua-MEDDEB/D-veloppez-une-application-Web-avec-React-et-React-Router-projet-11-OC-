@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Details.css';
-import { Tag } from '../../components/index';
+import { Tag, CollapseDescription, CollapseEquipments } from '../../components/index';
 import { Rating } from '../../components/index';
 
 const Details = (props) => {
@@ -18,7 +18,7 @@ const Details = (props) => {
     return <Rating rating={props.rating} key={`item-${index}`} scale={item}/>
   });
   console.log(ratingNmbers, tabRating)
-
+console.log(props.equipments)
   return (
     <>
     <div className='details'>
@@ -33,7 +33,7 @@ const Details = (props) => {
       <div className='details_host'>
         <div className='profil'>
           <div className='profil_name'>{props.hostName}</div>
-          <div className='profi_picture'>
+          <div className='profil_picture'>
             <img src={props.hostPicture} alt='' />
           </div>
         </div>
@@ -42,6 +42,11 @@ const Details = (props) => {
         </div>
       </div>
     </div>
+    <div className='collapses'>
+      <div className='collapseDecription'><CollapseDescription description={props.description}/></div>
+      <div className='collapseEquipements'><CollapseEquipments equipments={props.equipments} /></div>
+    </div>
+    
     </>
   )
 }
