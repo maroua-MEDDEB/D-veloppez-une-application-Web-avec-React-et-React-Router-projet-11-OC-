@@ -45,9 +45,9 @@ if(!currentId){
   if(selectedItem){
   return (
     <div className='logement_container'>
-    <Carousel pictures={pictures}/>
-    <Details title={title} location={location} tags={tags} hostName={hostName}
-    hostPicture={hostPicture} rating={rating} description={description} equipments = {equipments} />
+      <Carousel pictures={pictures}/>
+      <Details title={title} location={location} tags={tags} hostName={hostName}
+      hostPicture={hostPicture} rating={rating} description={description} equipments = {equipments} />
     </div>
     )
   }

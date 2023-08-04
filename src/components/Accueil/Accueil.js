@@ -5,7 +5,6 @@ function Accueil() {
     return(
         <>
         <Accueil_Container background='{--color--light}'/>
-        <Footer />
         </>
   
     );

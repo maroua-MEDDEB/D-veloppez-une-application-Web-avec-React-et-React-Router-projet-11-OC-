@@ -1,16 +1,21 @@
 .footer{
     background: black;
-    height: 209px;
+    padding:4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between
 }
 
+@media (min-width: 640px) {
+    .footer{
+        padding-top: 4rem;
+        padding-bottom: 2rem;   
+     }
+}
+
 .img_logo_footer{
-    width: 122px;
-    height: 39.444419860839844px;
-    margin-top: 50px;
+    width: 7rem;
 }
 
 .img_logo_footer img{
@@ -21,6 +26,14 @@
     object-position: center;
 }
 
-.footer h2{
+.text_footer{
+    font-size: 0.8rem;
+    padding-top: 2rem;
     color: white;
+}
+
+@media (min-width: 640px) {
+    .text_footer{
+        font-size: 1.5rem;
+    }
 }

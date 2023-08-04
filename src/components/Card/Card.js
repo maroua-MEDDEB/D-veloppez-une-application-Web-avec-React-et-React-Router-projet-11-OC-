@@ -1,4 +1,3 @@
-import './Card.css';
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
@@ -7,15 +6,17 @@ const Card = (props) => {
 
   return (
     <>
-    <div className='galorie_item'>
-      <Link to={locationDetails}> 
-        <div className='card_img'>
-          <img src={props.cover} alt=''/>
-        </div>
-        <div className='card_text'>
-          {props.title}
-        </div>
-      </Link>
+    <div className='grid_item'>
+      <div className='the_item'>
+        <Link to={locationDetails}> 
+          <div className='the_item_img'>
+            <img src={props.cover} alt=''/>
+          </div>
+          <div className='the_item_text'>
+            {props.title}
+          </div>
+        </Link>
+      </div>
     </div>
     </>
   )

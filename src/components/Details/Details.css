@@ -1,6 +1,5 @@
 .details {
     color: var(--color--primary);
-    background: blue;
     width: 100%;
     height: 120px;
     margin-top: 1rem;
@@ -15,7 +14,6 @@
     display: flex;
     flex-direction: column;
     flex: 1 1 0;
-    background: grey;
 }
 
 .details_host {
@@ -23,7 +21,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background: yellow;
+}
+
+.profil {
+    display: flex;
+    align-items: center;
+}
+
+.profil_name {
+    max-width: 70px;
+}
+
+.profil_picture img { 
+    height: 64px;
+    border-radius: 100px;;
 }
 
 .title {
@@ -38,17 +49,6 @@
     margin-top: 1.5rem;
 }
 
-.profil {
-    display: flex;
-    background: greenyellow;
-    align-items: center;
-}
-
-.profil_picture img { 
-    height: 64px;
-    border-radius: 100px;;
-}
-
 .collapses {
     display: flex;
     justify-content: space-between;
@@ -57,4 +57,10 @@
 
 .collapseDecription, .collapseEquipements{
     width: 800px;
+}
+
+@media screen and (max-width: 81.75rem) {
+}
+
+@media screen and (max-width: 55.5rem) {
 }

@@ -1,8 +1,8 @@
-import '../Container_Galory/Container_Galory.css';
+import '../Container_Grid/Container_Grid.css';
 import {appartListData} from '../../datas/cardsData';
 import {Card} from '../../components/index';
 
-const Container_Galory = () => {
+const Container_Grid = () => {
 
   //retourner un tableau cards qui contient le cover et le title depuis le tableau appartListData en utilisant la méthode map()
   const cards = appartListData.map((card) => { 
@@ -10,10 +10,12 @@ const Container_Galory = () => {
   });
 
   return (
-    <div className='galorie_items'>
+    <div className='grid_container'>
+      <div className='grid_items'>
         {cards};  {/* afficher les données */}
+      </div>
     </div>
   )
 }
 
-export default Container_Galory
+export default Container_Grid

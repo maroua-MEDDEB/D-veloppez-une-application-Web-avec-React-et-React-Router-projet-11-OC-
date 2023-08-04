@@ -28,8 +28,8 @@ span{
 
 .collapse_text {
     background: var(--color--grey);
-    border: 2px solid black;
     padding: 5px;
     color: var(--color--primary);
+    border-radius: var(--radius-collapse);
     padding: 15px 10px ;
 }

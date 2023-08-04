@@ -4,7 +4,7 @@ import './Banner.css';
 const Banner = (props) => {
   return (
     <>
-    <div className="section_main">
+    <div className="section_main_home_page">
       <div className="image_darkness">
         Chez vous, partout et ailleurs
         {props.children}
@@ -17,7 +17,7 @@ const Banner = (props) => {
 const Banner_apropos = (props) => {
   return (
     <>
-    <div className="section_main_apropos">
+    <div className="section_main_about_page">
       <div className="image_darkness"> {props.children} </div>
     </div>
     </>

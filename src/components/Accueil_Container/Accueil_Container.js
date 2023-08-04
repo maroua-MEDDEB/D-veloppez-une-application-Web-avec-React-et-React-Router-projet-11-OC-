@@ -1,11 +1,11 @@
 import { Banner } from "../../components/index";
-import {Container_Galory} from "../../Sections/index";
+import {Container_Grid} from "../../Sections/index";
 
 function Accueil_Container() {
   return (
     <>
      <Banner />
-     <Container_Galory />
+     <Container_Grid />
     </>
   )
 }

@@ -11,13 +11,11 @@ const Header = () => {
             </div>
             <nav className='navbar_header'>
                 <Link to="/">Accueil</Link>
-                <Link to="/Apropos">A propos</Link>
+                <Link to="/Apropos">A Propos</Link>
             </nav>
         </div>
         </>
-
     )
-   
 }
 
 export default Header;

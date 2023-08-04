@@ -6,7 +6,7 @@ const Rating = (props) => {
   return (
     <>
     {
-      props.scale <= props.rating ? <RiStarFill style={{color: 'var(--color--primary)'}}/> : <RiStarLine />
+      props.scale <= props.rating ? <RiStarFill style={{color: 'var(--color--primary)'}}/> : <RiStarFill  style={{color: '#E3E3E3'}} />
     }
     
     </>

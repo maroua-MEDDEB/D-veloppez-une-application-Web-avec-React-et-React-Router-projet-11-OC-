@@ -65,35 +65,3 @@
     text-align: center;
     text-shadow: 0 0 2px rgb(0, 0, 0, 70%);
   }
-  
-  @media screen and (max-width: 81.75rem) {
-    .carousel {
-      height: 20rem;
-      border-radius: 1rem;
-    }
-  
-    .carousel i {
-      font-size: 3.5rem;
-    }
-  
-    .carousel__counter {
-      bottom: 1rem;
-    }
-  }
-  
-  @media screen and (max-width: 55.5rem) {
-    .carousel {
-      height: 16rem;
-      border-radius: 0.5rem;
-    }
-  
-    .carousel i {
-      margin: 1rem;
-  
-      font-size: 2rem;
-    }
-  
-    .carousel__counter {
-      bottom: 0.5rem;
-    }
-  }
