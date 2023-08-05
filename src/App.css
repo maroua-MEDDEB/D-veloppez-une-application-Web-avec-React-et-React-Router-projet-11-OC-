@@ -26,13 +26,6 @@ body{
   font-size: 16px;
 }
 
-/* @media screen and (max-width: 81.75rem) {
-  .content-wrapper {
-    width: 51.5rem;
-    padding: 0 2rem;
-  }
-}
-*/
 @media screen and (max-width: 640px) {
   .content-wrapper {
     width: 100%;

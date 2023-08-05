@@ -16,11 +16,9 @@ const Banner = (props) => {
 
 const Banner_apropos = (props) => {
   return (
-    <>
     <div className="section_main_about_page">
       <div className="image_darkness"> {props.children} </div>
     </div>
-    </>
   )
 }
 

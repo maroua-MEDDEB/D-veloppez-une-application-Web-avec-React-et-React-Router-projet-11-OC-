@@ -1,7 +1,7 @@
-import { Banner } from "../../components/index";
+import { Banner } from "../index";
 import {Container_Grid} from "../../Sections/index";
 
-function Accueil_Container() {
+function Home_Container() {
   return (
     <>
      <Banner />
@@ -10,4 +10,4 @@ function Accueil_Container() {
   )
 }
 
-export default Accueil_Container;
+export default Home_Container;

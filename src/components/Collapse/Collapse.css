@@ -1,7 +1,7 @@
 .dropdowns {
     display: block;
-    margin: auto;
-    width: 87rem;
+    margin: var(--margin-primary-small);
+    transition: all 1s;
 }
 
 button {
@@ -32,4 +32,13 @@ span{
     color: var(--color--primary);
     border-radius: var(--radius-collapse);
     padding: 15px 10px ;
+}
+
+
+@media (min-width: 640px) {
+    .dropdowns {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    
+    }
 }
