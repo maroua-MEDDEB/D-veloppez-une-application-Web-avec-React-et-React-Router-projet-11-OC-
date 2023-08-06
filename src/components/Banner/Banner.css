@@ -15,7 +15,6 @@
 .section_main_about_page {
     background: url('../../assets/images/image_apropo.png') no-repeat center;
     background-size: cover;
-    border: 3px green solid;
     height: 28rem;
 }
 

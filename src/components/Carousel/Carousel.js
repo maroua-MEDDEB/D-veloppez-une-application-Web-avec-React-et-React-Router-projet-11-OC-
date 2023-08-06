@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import {RiArrowDropLeftLine} from "react-icons/ri";
 import {RiArrowDropRightLine} from "react-icons/ri";
 
-import "./Carousel.css";
+import '../../Sections/Housing_container/Housing_container.css';
 
 function Carousel({ pictures }) {
   const [currentPictureIndex, setCurrentPictureIndex] = useState(0);
@@ -45,14 +45,6 @@ function Carousel({ pictures }) {
 
       {pictures.length > 1 ? (
         <nav className="carousel__nav">
-          {/* <i
-            className="fas fa-chevron-left"
-            onClick={() => updatePicture(false)}
-          ></i>
-          <i
-            className="fas fa-chevron-right"
-            onClick={() => updatePicture(true)}
-          ></i> */}
            <div className='icon_previous' >
               <RiArrowDropLeftLine style={{'fontSize':'100px'}} onClick={() => updatePicture(false)}/>
             </div>

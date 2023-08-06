@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import './Details.css';
+import '../../Sections/Housing_container/Housing_container.css';
 import { Tag, CollapseDescription, CollapseEquipments } from '../../components/index';
 import { Rating } from '../../components/index';
 

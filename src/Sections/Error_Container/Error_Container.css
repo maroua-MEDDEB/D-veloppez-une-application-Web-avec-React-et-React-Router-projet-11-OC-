@@ -6,14 +6,12 @@
     /* margin: 20rem 1rem; */
     margin: 7rem 1rem;
     transition: all 1s;
-    background: green;
 }
 
 .cod_error {
     font-size:135px;
     font-weight: 700;
     transition: all 1s;
-    border: solid 4px black;
 }
 
 .text_error {

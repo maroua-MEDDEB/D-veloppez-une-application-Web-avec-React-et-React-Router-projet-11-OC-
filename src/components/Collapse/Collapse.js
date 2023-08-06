@@ -39,7 +39,7 @@ const Collapse = (props) =>  {
   )
 }
 
-//collapse qui affiche la descrition du logement
+//collapse qui affiche la descrition du Housing
 const CollapseDescription = (props) =>  {
 
   //définisser notre état par défaut
@@ -75,7 +75,7 @@ const CollapseDescription = (props) =>  {
   )
 }
 
-//collapse qui affiche la descrition du logement
+//collapse qui affiche la descrition du Housing
 const CollapseEquipments = (props) =>  {
 
   //définisser notre état par défaut
@@ -101,7 +101,7 @@ const CollapseEquipments = (props) =>  {
         <span> Equipements </span>
         <RiArrowDropUpLine style={{'color':'var(--color--light)'}}/>
       </button>
-      <div className="collapse_text" style={{display:'flex', flexDirection:'column', height:'100px'}}>
+      <div className="collapse_text" style={{display:'flex', flexDirection:'column'}}>
         {props.equipments} 
       </div> 
       </>

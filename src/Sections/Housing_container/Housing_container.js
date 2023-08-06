@@ -1,4 +1,4 @@
-import './Logement_container.css';
+import './Housing_container.css';
 import { Details, Carousel} from "../../components/index";
 import {appartListData} from '../../datas/cardsData';
 import { useParams, useNavigate } from 'react-router-dom';
@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 
 
-const Logement_container = () => {
+const Housing_container = () => {
   //récupérer le paramètre id de l'url
   const {id} = useParams();
 
@@ -44,7 +44,7 @@ if(!currentId){
 
   if(selectedItem){
   return (
-    <div className='logement_container'>
+    <div className='housing_container'>
       <Carousel pictures={pictures}/>
       <Details title={title} location={location} tags={tags} hostName={hostName}
       hostPicture={hostPicture} rating={rating} description={description} equipments = {equipments} />
@@ -54,4 +54,4 @@ if(!currentId){
   
 }
 
-export default Logement_container
+export default Housing_container

@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
-  // transmettre l'id du logement d'une carte sur l'accueil vers la page logement.
-  let locationDetails=`/logement/${props.id}`;
+  // transmettre l'id du Housing d'une carte sur l'accueil vers la page Housing.
+  let locationDetails=`/Housing/${props.id}`;
 
   return (
     <>
