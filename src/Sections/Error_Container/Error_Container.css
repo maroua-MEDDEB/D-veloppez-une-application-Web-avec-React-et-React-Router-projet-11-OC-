@@ -1,52 +1,51 @@
 .error_container {
-    color: var(--color--primary);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    /* margin: 20rem 1rem; */
-    margin: 7rem 1rem;
-    transition: all 1s;
+  color: var(--color--primary);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* margin: 20rem 1rem; */
+  margin: 7rem 1rem;
+  transition: all 1s;
+  height: 100vh;
 }
 
 .cod_error {
-    font-size:135px;
-    font-weight: 700;
-    transition: all 1s;
+  font-size: 135px;
+  font-weight: 700;
+  transition: all 1s;
 }
 
 .text_error {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .error_container a {
-    color: var(--color--primary);
-    font-weight: 500;
-    font-size: 14px;
-    margin-top: 8rem;
+  color: var(--color--primary);
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 8rem;
 }
 
 @media (min-width: 640px) {
-    .cod_error {
-        font-size:200px;
-    }
+  .cod_error {
+    font-size: 200px;
+  }
 
-    .error_container {
-        margin: var(--margin-primary)
-    }
+  .error_container {
+    margin: var(--margin-primary);
+  }
 
-    .text_error {
-        font-size: 36px;
-    }
+  .text_error {
+    font-size: 36px;
+  }
 
-    .error_container a {
-        font-size: 18px;
-    }
+  .error_container a {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 768px) {
-    .cod_error {
-        font-size:250px;
-    }
-
-  
+  .cod_error {
+    font-size: 250px;
+  }
 }

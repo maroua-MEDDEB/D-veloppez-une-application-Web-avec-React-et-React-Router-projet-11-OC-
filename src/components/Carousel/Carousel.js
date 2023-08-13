@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import {RiArrowDropLeftLine} from "react-icons/ri";
-import {RiArrowDropRightLine} from "react-icons/ri";
+import { RiArrowDropLeftLine } from "react-icons/ri";
+import { RiArrowDropRightLine } from "react-icons/ri";
 
-import '../../Sections/Housing_container/Housing_container.css';
+import "../../Sections/Housing_container/Housing_container.css";
 
 function Carousel({ pictures }) {
   const [currentPictureIndex, setCurrentPictureIndex] = useState(0);
@@ -45,18 +45,26 @@ function Carousel({ pictures }) {
 
       {pictures.length > 1 ? (
         <nav className="carousel__nav">
-           <div className='icon_previous' >
-              <RiArrowDropLeftLine style={{'fontSize':'100px'}} onClick={() => updatePicture(false)}/>
+          <div className="icon_previous">
+            <RiArrowDropLeftLine
+              style={{ fontSize: "100px" }}
+              onClick={() => updatePicture(false)}
+            />
+          </div>
+          {pictures.length == pictures[currentPictureIndex - 1] ? null : (
+            <div className="icon_next">
+              <RiArrowDropRightLine
+                style={{ fontSize: "100px" }}
+                onClick={() => updatePicture(true)}
+              />
             </div>
-            <div className='icon_next'>
-              <RiArrowDropRightLine style={{'fontSize':'100px'}} onClick={() => updatePicture(true)} />
-            </div>
+          )}
         </nav>
       ) : (
         ""
       )}
 
-      {pictures.length > 0 ? (
+      {pictures.length > 1 ? (
         <div className="carousel__counter">
           {currentPictureIndex + 1}/{pictures.length}
         </div>
