@@ -51,14 +51,13 @@ function Carousel({ pictures }) {
               onClick={() => updatePicture(false)}
             />
           </div>
-          {pictures.length == pictures[currentPictureIndex - 1] ? null : (
-            <div className="icon_next">
-              <RiArrowDropRightLine
-                style={{ fontSize: "100px" }}
-                onClick={() => updatePicture(true)}
-              />
-            </div>
-          )}
+
+          <div className="icon_next">
+            <RiArrowDropRightLine
+              style={{ fontSize: "100px" }}
+              onClick={() => updatePicture(true)}
+            />
+          </div>
         </nav>
       ) : (
         ""
@@ -74,9 +73,5 @@ function Carousel({ pictures }) {
     </div>
   );
 }
-
-Carousel.propTypes = {
-  pictures: PropTypes.arrayOf(PropTypes.string),
-};
 
 export default Carousel;
